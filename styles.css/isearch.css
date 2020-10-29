@@ -1,0 +1,121 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+#logo {
+    display: table;
+    padding: 10px 0;
+    margin: 0 auto;
+
+}
+.search_logo{
+    margin: 0 auto;
+    width: 100%;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 15px;
+    
+}
+
+.main_div {
+    display: inline-block;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    height: 44px;
+    width: 482px;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    padding: 3px;
+}
+.search {
+   
+    font-size: 18px;
+    font-family: inherit;
+    border: none;
+    outline-color: white;
+}
+form {
+    margin: 0 auto;
+    display: table;
+    padding: 30px;
+}
+#lens {
+    padding: 13px;  
+}
+.main_div:hover {
+    box-shadow: 0 1px 6px rgba(32, 33 , 36, .28);
+}
+.submit_btn_gs {
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    margin: 11px 4px;
+    line-height: 27px;
+    height: 36px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0 16px;
+    cursor: pointer;
+}
+.submit_btn_ifl {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: inherit;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    cursor: pointer;
+    text-align: center;
+    height: 36px;
+
+}
+.click {
+    margin: 0 auto;
+    display: table;
+    padding: 25px;
+}
+#buts:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+.search-type {
+    float: right;
+}
+a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 20px;
+}
+#anotherDiv {
+    padding-top: 90px;
+}
+#logo-img {
+    background-image: url("../images/googlelogo.png");
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+    
+}
+#div-logo-sp {
+    color: blue;
+    float: right;
+    padding-top: 70px;
+}
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css/asearch.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Advanced Search </title>
+</head>
+<body>
+    <header class="search_logo">
+        <a href="index.html">Google Search</a>
+    </header>
+    <div id="anotherDiv">
+        <div id="lbl">
+            <label>Advanced Search</label>
+        </div>
+        <div id="line"></div>
+        <div class="search_box">
+            <form action="https://google.com/search">
+                <div class="find">
+                    <div class="dot">Find pages with...</div>
+                    <div class="dot"></div>
+                    <div class="dot" id="clr"><strong>To do this in the search box.</strong></div>
+                </div>
+                <div class="word">
+                    <div class="all">all these words:</div>
+                    <input autofocus="autofocus" type="text" name="as_q" id="search" class="all">
+                    <div class="all" id="foo">Type the important words: <span class="blah">tri-colour rat terrier<span></div>
+                </div> 
+                <div class="word">
+                    <div class="all">this exact word or phrase:</div>
+                    <input autofocus="autofocus" type="text" name="as_epq" id="this" class="all">
+                    <div class="all" id="foo">Put exact words in quotes: <span class="blah">"rat terrier"</span></div>
+                </div>
+                <div class="word">
+                    <div class="all">any of these words:</div>
+                    <input autofocus="autofocus" type="text" name="as_oq" id="any" class="all">
+                    <div class="all" id="foo">Type OR between all the words you want: <span class="blah">miniature OR standard</span></div>
+                </div>
+                <div class="word">
+                    <div class="all">numbers ranging from:</div>
+                    <input autofocus="autofocus" type="text" name="as_eq" id="num" class="all">
+                    <div class="all" id="foo">Put two full stops between the numbers and add a unit of measurement:<br><span class="blah">10..35 kg, £300..£500, 2010..2011</span></div>
+                </div>
+                <input type="submit" class="ops" value="Advanced Search">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
